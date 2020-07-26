@@ -1,0 +1,23 @@
+{
+  "name": "restaurantodin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lkrbalci/RestaurantOdin.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lkrbalci/RestaurantOdin/issues"
+  },
+  "homepage": "https://github.com/lkrbalci/RestaurantOdin#readme",
+  "devDependencies": {
+    "webpack": "^4.44.0",
+    "webpack-cli": "^3.3.12"
+  }
+}
