@@ -1,6 +1,8 @@
 import { navAdder } from "./navBar";
 import { homeAdder } from "./home";  
 import { menuAdder } from "./menu";
+import { contactAdder } from "./contact";
+import { aboutAdder } from "./about";
 
 
 
@@ -20,9 +22,11 @@ const toMenu = () => {
 }
 const toContact = () => {
     contentDiv.removeChild(contentDiv.lastElementChild);
+    contactAdder(contentDiv);
 }
 const toAbout = () => {
     contentDiv.removeChild(contentDiv.lastElementChild);
+    aboutAdder(contentDiv);
 }
 
 document.getElementById("home").addEventListener("click", toHome);

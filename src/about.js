@@ -1,4 +1,4 @@
-const homeAdder = (contentDiv) => {
+const aboutAdder = (contentDiv) => {
 
     const nav = document.createElement("div");
     nav.setAttribute("style", "width: 80%; height: 100%; margin: 0 auto;");
@@ -12,12 +12,12 @@ const homeAdder = (contentDiv) => {
             color: rgba(250, 125, 255, 1);
             text-align: center; 
             ">
-            <h1 style="padding:20px;">Wanna Eat Something?</h1>
-            <h1 style="padding:20px;">Check Menu!</h1>
+            <p style="padding:20px; font-size: 30px;">Just build to get used to JS modules, webpack etc</h1>
+            <p style="padding:20px;">nothing real :)</h1>
             </div>
     `
 
     contentDiv.appendChild(nav);
 }
 
-export {homeAdder}
+export {aboutAdder}
